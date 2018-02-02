@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import * as Container from '../';
+import * as Components from '../../components';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-ola
+        <Container.Header props={'a'}/>
+        <Components.TradeItem props={'a'}/>
       </div>
     );
   }
